@@ -78,3 +78,11 @@ username=user@user.com
 ## Fluxos de autenticação
 
 - Os fluxos de autenticação utilizando Keycloak estão separados por branches
+
+### Authorization Code
+
+- Geralmente recomendado para aplicativos web e móveis confiáveis
+- Fornece alto nível ao lidar com autorização e autenticação de usuários em um servidor de recursos
+- É adequado que você possui um servidor back-end seguro que protege o segredo de cliente (client-secret)
+- O aplicativo solicita ao servidor de autorização (authorization server) um código de autorização, que é então trocado por um token de acesso. Essa troca ocorre no servidor back-end, onde as credenciais confidenciais podem ser armazenadas com segurança e a comunicação é realizada por meio de chamadas de back-end.
+- Em resumo, o fluxo Authorization Code Flow é recomendado para aplicativos web e móveis confiáveis, nos quais a segurança é uma preocupação essencial e existe um servidor back-end seguro para gerenciar as interações com o servidor de autorização.![Authorization Code Flow](./authentication-flow/authentication-code.png)
