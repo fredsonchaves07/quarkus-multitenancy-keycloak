@@ -75,3 +75,6 @@ username=user@user.com
 &scope=openid
 ```
 
+## Fluxos de autenticação
+
+- Os fluxos de autenticação utilizando Keycloak estão separados por branches
