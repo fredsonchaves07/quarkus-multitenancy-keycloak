@@ -22,9 +22,10 @@ public class CustomTenantResolver implements TenantResolver {
     public String resolveTenantId() {
         String path = context.request().path();
         String[] parts = path.split("/api");
-        if (parts.length == 0) {
+        if (parts.length < 2) {
             return getDefaultTenantId();
         }
-        return parts[1];
+        String[] tenantParts =  parts[1].split("/");
+        return tenantParts[1];
     }
 }
