@@ -33,10 +33,12 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-flyway</artifactId>
+            <version>3.15.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy-jsonb</artifactId>
+            <version>3.15.1</version>
         </dependency>
 <!--        <dependency>-->
 <!--            <groupId>io.quarkus</groupId>-->
@@ -49,28 +51,33 @@
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-hibernate-orm-panache</artifactId>
+            <version>3.15.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-resteasy</artifactId>
+            <version>3.15.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-jdbc-postgresql</artifactId>
+            <version>3.15.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-arc</artifactId>
+            <version>3.15.1</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-hibernate-orm</artifactId>
+            <version>3.15.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-database-postgresql</artifactId>
-            <version>10.15.2</version>
+            <version>10.17.3</version>
         </dependency>
 
         <dependency>
